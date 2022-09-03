@@ -1,0 +1,8 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE user(
+id integer,
+name varchar(255));
+INSERT INTO user VALUES(1,'izumi');
+INSERT INTO user VALUES(2,'toshinori');
+COMMIT;
